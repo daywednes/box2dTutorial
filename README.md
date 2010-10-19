@@ -19,6 +19,16 @@ You should now have a `box2d` directory with a bunch of fun javascript. Right?
 
 This adds the python scripts and compiler jar needed to build.mat
 
+## 3 - Add Closure Library
+
+`svn checkout http://closure-library.googlecode.com/svn/trunk/ closure-library`
+
+You'll want to add a `.gitignore` file to `closure-library` to remove a bunch of stuff you don't want.
+
+    .svn
+    *.html
+    closure/goog/demos
+
 # The basics
 
 * We built an HTML5 game -- [Agent 8 Ball](http://agent8ball.com). We wanted it to have cool physics.
