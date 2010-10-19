@@ -1,3 +1,6 @@
 [submodule "box2d"]
 	path = box2d
 	url = git://github.com/thinkpixellab/box2d.git
+[submodule "tools"]
+	path = tools
+	url = git://github.com/thinkpixellab/google-closure-tools.git

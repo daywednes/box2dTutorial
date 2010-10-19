@@ -13,6 +13,12 @@ This is a box2d tutorial.
 
 You should now have a `box2d` directory with a bunch of fun javascript. Right?
 
+## 2 - Add Tools
+
+`git submodule add git://github.com/thinkpixellab/google-closure-tools.git tools`
+
+This adds the python scripts and compiler jar needed to build.mat
+
 # The basics
 
 * We built an HTML5 game -- [Agent 8 Ball](http://agent8ball.com). We wanted it to have cool physics.
