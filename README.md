@@ -7,6 +7,12 @@ This is a box2d tutorial.
 * Create a dir. Any dir.
 * run `git init` in it
 
+## 1 - Add box2d as a submodule
+
+`git submodule add git://github.com/thinkpixellab/box2d.git box2d`
+
+You should now have a `box2d` directory with a bunch of fun javascript. Right?
+
 # The basics
 
 * We built an HTML5 game -- [Agent 8 Ball](http://agent8ball.com). We wanted it to have cool physics.
