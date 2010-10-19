@@ -29,6 +29,25 @@ You'll want to add a `.gitignore` file to `closure-library` to remove a bunch of
     *.html
     closure/goog/demos
 
+## 4 - Bootstrap your code
+
+Let's get a simple html + js file together.
+
+### index.html
+    <html>
+    <head>
+      <title>Demo!</title>
+      <script src="code.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+    </body>
+    </html>
+
+### code.js
+    alert("Hello, code!");
+
+Do you see an alert? We're good to go!
+
 # The basics
 
 * We built an HTML5 game -- [Agent 8 Ball](http://agent8ball.com). We wanted it to have cool physics.
